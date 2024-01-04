@@ -1,0 +1,105 @@
+.heroText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 0px;
+    color: red;
+    text-shadow: 2px 1px #292929;
+    letter-spacing: .2rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+}
+
+table{
+    width:90%;
+}
+
+.tableHeader {
+    background-color: #212121;
+    color: #e6e6e6;
+    font-size: 1.5rem;
+}
+
+.heroImage {
+    max-width: 100px;
+}
+
+.oddrow {
+    background-color: #cacaca;
+}
+
+.evenrow {
+    background-color: #e3e3e3;
+}
+
+.mainStyle {
+    background-color: whitesmoke;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.footerStyle {
+    background-color: #212121;
+    color: #efefef;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navStyle {
+    background-color: #212121;
+    color: #efefef;
+    padding: 1rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navLink a{
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.navLink.active a{
+    color: #efefef;
+    font-weight: bold;
+}
+
+.navLink a:hover{
+    color: #FFFFBE;
+}
+
+header {
+    margin: 0px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+img {
+    max-width: 70%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain the aspect ratio of the images */
+    display: block; /* Remove any extra space below the images */
+    margin: 0 auto; /* Center the images within their container */
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse; /* Collapse borders for a cleaner appearance */
+    table-layout: fixed;
+}
+
+td {
+    width: 20%; /* Set an equal width for each cell (100% / number of cells) */
+    border: 1px solid #000; /* Add a border for better visibility */
+}
+
+footer {
+    flex-shrink: 0;
+}
